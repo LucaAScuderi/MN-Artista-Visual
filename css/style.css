@@ -1,15 +1,15 @@
 
 
 #fondo__pagina{
-    background-image: url(/img/headerBG.jpg);
+    background-image: url(../img/headerBG.jpg);
     height: 40em;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
 }
 
-#estilo__palabra__menu{
-    color: black
+#estilo__palabra__menu__rojo{
+    color: #a8c7cc
 }
 
 #titulo__nombre{
@@ -18,8 +18,14 @@
     font-size: 20px;
 }
 
+
 #barra__navegacion{
     background-color: #d2d4d3a4;
+    padding: 0;
+}
+
+#barra__navegacion__rojo{
+    background-color: #6d4050;
     padding: 0;
 }
 
@@ -129,6 +135,7 @@
         padding-bottom: 10%;
         text-align: justify;
     }
+    
     
     
 }
