@@ -1,5 +1,7 @@
 @import "variables.scss";
 
+
+
 #fondo__pagina{
     background-image: url(../img/headerBG.jpg);
     height: 40em;
@@ -7,6 +9,8 @@
     background-size: cover;
     background-position: center left;
 }
+
+
 
 /* ESTILOS PALABRA MENU */
 
@@ -258,7 +262,7 @@
 
 
 #fondo__trabajos{
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/museo-louvre-1072536.jpg); 
+    background-image: $fondoopaco, url(../img/museo-louvre-1072536.jpg); 
     background-position: center center;
     background-size: cover;
     background-repeat:no-repeat;
@@ -306,6 +310,23 @@
 /* FIN ESTILO ICONOS CONTACTO */
 
 
+.fondo__estilos{
+    background-image:linear-gradient(243deg, rgb(230, 227, 227) 31%, rgba(0,0,0,1) 100%);
+    background-size: 300%;
+    animation: fondoestilos 10s linear infinite alternate;
+}
+
+@keyframes fondoestilos{
+   from{
+    background-position: left;
+    color: rgb(230, 227, 227);
+   }
+   to{
+    background-position: right;
+    color: rgba(0,0,0,1);
+   }
+}
+
 
 
 @media only screen and (max-width: 576px){
@@ -315,6 +336,91 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top left;
+        
+        
+        .burbuja1{
+            width: 50px;
+            height: 50px;
+            border-radius: 60%;
+            background-color: $colorburbujas;
+            opacity: .3;
+            position: absolute;
+            bottom: 0;
+            left: 5%;
+            
+            animation: burbuja 3s linear infinite;
+        }
+
+        .burbuja2{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: $colorburbujas;
+            opacity: 0;
+            position: absolute;
+            bottom: 0;
+            left: 25%;
+            
+            animation: burbuja 3s .2s linear infinite;
+        }
+        
+            
+
+        .burbuja3{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: $colorburbujas;
+            opacity: .3;
+            position: absolute;
+            bottom: 0;
+            left:55%;
+            
+            animation: burbuja 3s linear infinite;
+        }
+
+        .burbuja4{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: $colorburbujas;
+            opacity: 0;
+            position: absolute;
+            bottom: 0;
+            left: 75%;
+            
+            animation: burbuja 3s .7s linear infinite;
+        }
+
+        .burbuja5{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: $colorburbujas;
+            opacity: 0;
+            position: absolute;
+            bottom: 0;
+            left: 35%;
+            
+            animation: burbuja 3s 1s linear infinite;
+        }
+
+
+
+        @keyframes burbuja{
+            0%{
+                bottom: 0;
+                opacity: 0;
+            }
+
+            50%{
+                opacity: .4;
+            }
+
+            100%{
+                bottom: 100vh;
+            }
+        }
     }
 
     #logo__ig{
@@ -362,6 +468,7 @@
     
     
     
+    
 }
 
 @media only screen and (min-width: 576px){
@@ -375,6 +482,85 @@
         text-align: justify;
         padding-bottom:2%;
         padding-top: 2%;
+    }
+
+    .burbuja1{
+        width: 50px;
+        height: 50px;
+        border-radius: 60%;
+        background-color: $colorburbujas;
+        opacity: .3;
+        position: absolute;
+        bottom: 0;
+        left: 5%;
+        animation: burbuja 3s linear infinite;
+    }
+
+    .burbuja2{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: $colorburbujas;
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+        animation: burbuja 3s .2s linear infinite;
+    }
+    
+        
+
+    .burbuja3{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: $colorburbujas;
+        opacity: .3;
+        position: absolute;
+        bottom: 0;
+        left:55%;
+        animation: burbuja 3s linear infinite;
+    }
+
+    .burbuja4{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: $colorburbujas;
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        left: 75%;
+        animation: burbuja 3s .7s linear infinite;
+    }
+
+    .burbuja5{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: $colorburbujas;
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+        animation: burbuja 3s 1s linear infinite;
+    }
+
+
+
+    @keyframes burbuja{
+        0%{
+            bottom: 0;
+            opacity: 0;
+        }
+
+        50%{
+            opacity: .4;
+        }
+
+        100%{
+            bottom: 100vh;
+        }
     }
     
 }
@@ -410,6 +596,86 @@
     #texto__footer__large{
         font-size: 1.3em;
     }
+
+    .burbuja1{
+        width: 50px;
+        height: 50px;
+        border-radius: 60%;
+        background-color: $colorburbujas;
+        opacity: .3;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        animation: burbuja 3s linear infinite;
+    }
+
+    .burbuja2{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: $colorburbujas;
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        left: 65%;
+        animation: burbuja 3s .2s linear infinite;
+    }
+    
+        
+
+    .burbuja3{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: $colorburbujas;
+        opacity: .3;
+        position: absolute;
+        bottom: 0;
+        left:75%;
+        animation: burbuja 3s linear infinite;
+    }
+
+    .burbuja4{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: $colorburbujas;
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        left: 90%;
+        animation: burbuja 3s .7s linear infinite;
+    }
+
+    .burbuja5{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: $colorburbujas;
+        opacity: 0;
+        position: absolute;
+        bottom: 0;
+        left: 75%;
+        animation: burbuja 3s 1s linear infinite;
+    }
+
+
+
+    @keyframes burbuja{
+        0%{
+            bottom: 0;
+            opacity: 0;
+        }
+
+        50%{
+            opacity: .4;
+        }
+
+        100%{
+            bottom: 100vh;
+        }
+    }
+    
     
     
 }
