@@ -153,6 +153,10 @@
 /* FIN ESTILO TEXTO DE FOOTER */
 #fondo__presentacion {
   background-color: #d2d4d3a4; }
+  #fondo__presentacion .titulo__presentacion {
+    animation-name: titulopresentacion;
+    animation-timing-function: linear;
+    animation-duration: 2s; }
   #fondo__presentacion #texto__foto__presentacion {
     background-color: rgba(0, 0, 0, 0.068);
     border-radius: 5px;
@@ -160,7 +164,10 @@
     animation-timing-function: ease-in-out;
     animation-duration: 1s; }
     #fondo__presentacion #texto__foto__presentacion #parrafo__presentacion {
-      color: black;
+      font-family: "Cantarell";
+      line-height: 25px;
+      font-size: 15px;
+      color: #333030;
       animation-name: textoaparicion;
       animation-timing-function: linear;
       animation-duration: 3s; }
@@ -169,7 +176,7 @@
   from {
     color: transparent; }
   to {
-    color: black; } }
+    color: #333030; } }
 
 @keyframes contenedortexto {
   from {
@@ -224,6 +231,15 @@
   background-size: 300%;
   animation: fondoestilos 10s linear infinite alternate; }
 
+.titulo__estilos, #fondo__presentacion .titulo__presentacion, .titulo__trabajos {
+  -webkit-text-stroke: 1px black;
+  font-family: "Bree Serif";
+  font-size: 5em;
+  color: transparent; }
+
+.subtitulo__estilos {
+  font-family: "Bree Serif"; }
+
 @keyframes fondoestilos {
   from {
     background-position: left;
@@ -232,6 +248,30 @@
     background-position: right;
     color: black; } }
 
+.titulo__trabajos {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.651);
+  text-shadow: rgba(255, 255, 255, 0.438) 1px 2px 15px;
+  animation-name: iluminaciontitulo;
+  animation-timing-function: ease-out;
+  animation-duration: 3s; }
+
+@keyframes iluminaciontitulo {
+  0% {
+    text-shadow: none; }
+  10% {
+    text-shadow: 255, 255, 255, 0.438 1px 2px 15px; }
+  60% {
+    text-shadow: none; }
+  70% {
+    text-shadow: rgba(255, 255, 255, 0.438) 1px 2px 15px; }
+  80% {
+    text-shadow: none; }
+  90% {
+    text-shadow: none; }
+  100% {
+    text-shadow: rgba(255, 255, 255, 0.438) 1px 2px 15px; } }
+
+/* ------------------MEDIA QUERIES---------------------- */
 @media only screen and (max-width: 576px) {
   #fondo__pagina {
     background-image: url(../img/headerBG600pxMAX.jpg);
@@ -321,13 +361,17 @@
     background-color: #00bb2d;
     padding: 2px 10px;
     font-size: 10px; }
+  #fondo__presentacion .titulo__presentacion {
+    font-size: 3em; }
   #foto__presentacion {
     margin: 10%; }
   #texto__foto__presentacion {
     margin-bottom: 10%;
     text-align: justify;
     padding-bottom: 2%;
-    padding-top: 2%; } }
+    padding-top: 2%; }
+  .titulo__trabajos {
+    font-size: 3em; } }
 
 @media only screen and (min-width: 576px) {
   #foto__presentacion {
