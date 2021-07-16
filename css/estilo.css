@@ -186,12 +186,12 @@
     margin-left: initial;
     background-color: rgba(0, 0, 0, 0.068); } }
 
-#fondo__trabajos {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/museo-louvre-1072536.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
+/* #fondo__trabajos{
+    background-image: $fondoopaco, url(../img/museo-louvre-1072536.jpg); 
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+} */
 /* ESTILO ICONOS CONTACTO */
 #instagram__footer {
   text-align: end;
@@ -231,7 +231,7 @@
   background-size: 300%;
   animation: fondoestilos 10s linear infinite alternate; }
 
-.titulo__estilos, #fondo__presentacion .titulo__presentacion, .titulo__trabajos {
+.titulo__estilos, #fondo__presentacion .titulo__presentacion, .titulo__trabajos, .section__chicaroja .titulo__chicaroja, .section__chicacolores .titulo__chicacolores, .section__cactus .titulo__cactus, .section__perla .titulo__perla {
   -webkit-text-stroke: 1px black;
   font-family: "Bree Serif";
   font-size: 5em;
@@ -249,8 +249,9 @@
     color: black; } }
 
 .titulo__trabajos {
+  font-size: 6em;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.651);
-  text-shadow: rgba(255, 255, 255, 0.438) 1px 2px 15px;
+  text-shadow: rgba(255, 255, 255, 0.438) 1px 3px 20px;
   animation-name: iluminaciontitulo;
   animation-timing-function: ease-out;
   animation-duration: 3s; }
@@ -270,6 +271,49 @@
     text-shadow: none; }
   100% {
     text-shadow: rgba(255, 255, 255, 0.438) 1px 2px 15px; } }
+
+.section__titulo__trabajos {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/pared-purpura-papel-pintado-1680x1050_5.jpg); }
+
+.section__chicaroja {
+  background-color: #d2d4d3a4; }
+  .section__chicaroja .titulo__chicaroja {
+    margin-top: 100px;
+    -webkit-text-stroke: 4px #733646; }
+  .section__chicaroja p {
+    font-family: "Cantarell";
+    text-align: justify; }
+
+.section__chicacolores {
+  background-color: #023059; }
+  .section__chicacolores .titulo__chicacolores {
+    margin-top: 100px;
+    -webkit-text-stroke: 4px #803D68; }
+  .section__chicacolores p {
+    color: #803D68;
+    font-family: "Cantarell";
+    text-align: justify; }
+
+.section__cactus {
+  background-color: #632C73; }
+  .section__cactus .titulo__cactus {
+    margin-top: 100px;
+    -webkit-text-stroke: 4px #5B83A6; }
+  .section__cactus p {
+    color: #5B83A6;
+    font-family: "Cantarell";
+    text-align: justify; }
+
+.section__perla {
+  background-color: #021859; }
+  .section__perla .titulo__perla {
+    margin-top: 100px;
+    -webkit-text-stroke: 4px #617AD6; }
+  .section__perla p {
+    color: #617AD6;
+    font-family: "Cantarell";
+    text-align: justify; }
 
 /* ------------------MEDIA QUERIES---------------------- */
 @media only screen and (max-width: 576px) {
@@ -370,8 +414,29 @@
     text-align: justify;
     padding-bottom: 2%;
     padding-top: 2%; }
+  .section__titulo__trabajos {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/pared-purpura-papel-pintado-960x540_43.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
   .titulo__trabajos {
-    font-size: 3em; } }
+    font-size: 4em; }
+  .section__chicaroja .titulo__chicaroja {
+    font-size: 3em;
+    -webkit-text-stroke: 2px #733646;
+    text-align: justify; }
+  .section__chicacolores .titulo__chicacolores {
+    font-size: 3em;
+    -webkit-text-stroke: 2px #803D68;
+    text-align: justify; }
+  .section__cactus .titulo__cactus {
+    font-size: 3em;
+    -webkit-text-stroke: 2px #5B83A6;
+    text-align: justify; }
+  .section__perla .titulo__perla {
+    font-size: 2.5em;
+    -webkit-text-stroke: 0.8px #617AD6;
+    text-align: justify; } }
 
 @media only screen and (min-width: 576px) {
   #foto__presentacion {
