@@ -10,41 +10,13 @@
   font-weight: 500;
   color: #3d3232; }
 
-#estilo__palabra__menu__rojo {
-  color: #a8c7cc;
-  font-weight: 500; }
-
-#estilo__palabra__menu__colores {
-  color: #a8c7cc;
-  font-weight: 500; }
-
-#estilo__palabra__menu__cactus {
-  color: #a8c7cc;
-  font-weight: 500; }
-
-#estilo__palabra__menu__perla {
-  color: #030539;
-  font-weight: 500; }
-
 /* FIN ESTILO PALABRA MENU */
 /* ESTILO TITULO */
-#titulo__nombre, #titulo__nombre__rojo, #titulo__nombre__colores, #titulo__nombre__cactus, #titulo__nombre__perla {
+#titulo__nombre {
   font-family: "Bree Serif";
   text-decoration: none;
   font-size: 20px;
   color: #3d3232; }
-
-#titulo__nombre__rojo {
-  color: #a8c7cc; }
-
-#titulo__nombre__colores {
-  color: #a8c7cc; }
-
-#titulo__nombre__cactus {
-  color: #a8c7cc; }
-
-#titulo__nombre__perla {
-  color: #030539; }
 
 /* FIN ESTILO TITULO */
 /* ESTILO BARRA NAVEGACION */
@@ -52,41 +24,16 @@
   background-color: #d2d4d3a4;
   padding: 0; }
 
-#barra__navegacion__rojo {
-  background-color: #6d4050;
-  padding: 0; }
-
-#barra__navegacion__colores {
-  background-color: #6c5373;
-  padding: 0; }
-
-#barra__navegacion__cactus {
-  background-color: #1d4841;
-  padding: 0; }
-
-#barra__navegacion__perla {
-  background-color: #8279b0;
-  padding: 0; }
-
 /* FIN BARRA NAVEGACION */
+.navbar {
+  position: sticky;
+  top: 0; }
+
 /* INICIO ESTILO SOMBRA BARRA DE NAVEGACION */
 #sombra__barra__navegacion {
   box-shadow: #0000002c 1px 4px 10px; }
 
-#sombra__barra__navegacion__roja {
-  box-shadow: #6d4050 1px 4px 10px; }
-
-#sombra__barra__navegacion__colores {
-  box-shadow: #6c5373 1px 4px 10px; }
-
-#sombra__barra__navegacion__cactus {
-  box-shadow: #1d4841 1px 4px 10px; }
-
-#sombra__barra__navegacion__perla {
-  box-shadow: #8279b0 1px 4px 10px; }
-
 /* FIN ESTILO SOMBRA BARRA DE NAVEGACION */
-/* ESTILO TEXTO DE FOOTER */
 #footer__contacto {
   box-shadow: 1px -4px 10px #0000002c; }
   #footer__contacto #texto__footer {
@@ -122,41 +69,8 @@
       border: #036e1c solid 2px;
       transition: 0.5s; }
 
-#texto__footer__rojo {
-  background-color: #6d4050;
-  height: 12em;
-  font-family: "Cantarell";
-  font-size: 0.8em;
-  box-shadow: #6d4050 1px -4px 10px; }
-
-#texto__footer__colores {
-  background-color: #6c5373;
-  height: 12em;
-  font-family: "Cantarell";
-  font-size: 0.8em;
-  box-shadow: #6c5373 1px -4px 10px; }
-
-#texto__footer__cactus {
-  background-color: #1d4841;
-  height: 12em;
-  font-family: "Cantarell";
-  font-size: 0.8em;
-  box-shadow: #1d4841 1px -4px 10px; }
-
-#texto__footer__perla {
-  background-color: #8279b0;
-  height: 12em;
-  font-family: "Cantarell";
-  font-size: 0.8em;
-  box-shadow: #8279b0 1px -4px 10px; }
-
-/* FIN ESTILO TEXTO DE FOOTER */
 #fondo__presentacion {
   background-color: #d2d4d3a4; }
-  #fondo__presentacion .titulo__presentacion {
-    animation-name: titulopresentacion;
-    animation-timing-function: linear;
-    animation-duration: 2s; }
   #fondo__presentacion #texto__foto__presentacion {
     background-color: rgba(0, 0, 0, 0.068);
     border-radius: 5px;
@@ -186,13 +100,6 @@
     margin-left: initial;
     background-color: rgba(0, 0, 0, 0.068); } }
 
-/* #fondo__trabajos{
-    background-image: $fondoopaco, url(../img/museo-louvre-1072536.jpg); 
-    background-position: center center;
-    background-size: cover;
-    background-repeat:no-repeat;
-} */
-/* ESTILO ICONOS CONTACTO */
 #instagram__footer {
   text-align: end;
   margin-top: 2px; }
@@ -225,7 +132,6 @@
   border: #036e1c solid 2px;
   transition: 0.5s; }
 
-/* FIN ESTILO ICONOS CONTACTO */
 .fondo__estilos {
   background-image: linear-gradient(243deg, #e6e3e3 31%, black 100%);
   background-size: 300%;
@@ -289,14 +195,14 @@
   background-color: #023059; }
   .section__chicacolores .titulo__chicacolores {
     margin-top: 100px;
-    -webkit-text-stroke: 4px #803D68; }
+    -webkit-text-stroke: 4px #803d69; }
   .section__chicacolores p {
     color: #803D68;
     font-family: "Cantarell";
     text-align: justify; }
 
 .section__cactus {
-  background-color: #632C73; }
+  background-color: #622c73; }
   .section__cactus .titulo__cactus {
     margin-top: 100px;
     -webkit-text-stroke: 4px #5B83A6; }
@@ -508,8 +414,7 @@
 
 @media only screen and (min-width: 768px) {
   #foto__presentacion {
-    margin: 10%;
-    /* margin-top: 30%; */ }
+    margin: 10%; }
   #texto__foto__presentacion {
     margin-top: 3%;
     text-align: justify;
@@ -517,8 +422,7 @@
 
 @media only screen and (min-width: 992px) {
   #foto__presentacion {
-    margin: 10%;
-    /* margin-top: 60%; */ }
+    margin: 10%; }
   #texto__foto__presentacion {
     margin-top: 2.3%;
     text-align: justify;
@@ -586,8 +490,7 @@
 
 @media only screen and (min-width: 1200px) {
   #foto__presentacion {
-    margin: 10%;
-    /* margin-top: 40%; */ }
+    margin: 10%; }
   #texto__foto__presentacion {
     margin-top: 1%;
     text-align: justify;

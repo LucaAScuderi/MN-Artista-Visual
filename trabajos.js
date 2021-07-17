@@ -1,4 +1,5 @@
 window.sr = ScrollReveal();
+    
     sr.reveal('.card1, .card2, .card3', {
         duration: 1000,
         origin: 'bottom',
@@ -12,6 +13,7 @@ window.sr = ScrollReveal();
         duration:1000,
         origin: 'bottom',
         distance: '500px',
+        
     })
 
     sr.reveal('.titulo__trabajos, .titulo__chicaroja, .titulo__chicacolores, .titulo__cactus, .titulo__perla',{
@@ -19,12 +21,8 @@ window.sr = ScrollReveal();
         origin: 'left',
         distance: '300px',
         reset: 'true',
+        
     })
 
-    sr.reveal('#footer__contacto',{
-        duration:1000,
-        distance: '100px',
-        reset: 'true',
-    })
-
+    
     

@@ -18,26 +18,6 @@
     font-weight: 500;  
     color: $colortextos;
 }
-#estilo__palabra__menu__rojo{
-    color: #a8c7cc;
-    font-weight: 500;  
-}
-
-#estilo__palabra__menu__colores{
-    color: #a8c7cc;
-    font-weight: 500;  
-}
-
-#estilo__palabra__menu__cactus{
-    color: #a8c7cc;
-    font-weight: 500;  
-}
-
-#estilo__palabra__menu__perla{
-    color: #030539;
-    font-weight: 500;  
-}
-
 /* FIN ESTILO PALABRA MENU */
 
 
@@ -49,28 +29,6 @@
     font-size: 20px;
     color: $colortextos;
 }
-
-
-#titulo__nombre__rojo{
-    @extend #titulo__nombre ;
-    color: #a8c7cc;
-}
-
-#titulo__nombre__colores{
-    @extend #titulo__nombre ;
-    color: #a8c7cc;
-}
-
-#titulo__nombre__cactus{
-    @extend #titulo__nombre ;
-    color: #a8c7cc;
-}
-
-#titulo__nombre__perla{
-    @extend #titulo__nombre ;
-    color: #030539;
-}
-
 /* FIN ESTILO TITULO */
 
 
@@ -78,59 +36,26 @@
 #barra__navegacion{
     background-color: $colorprincipal;
     padding: 0;
+    
 }
-
-#barra__navegacion__rojo{
-    background-color: #6d4050;
-    padding: 0;
-}
-
-#barra__navegacion__colores{
-    background-color: #6c5373;
-    padding: 0;
-}
-
-#barra__navegacion__cactus{
-    background-color: #1d4841;
-    padding: 0;
-}
-
-#barra__navegacion__perla{
-    background-color: #8279b0;
-    padding: 0;
-}
-
 /* FIN BARRA NAVEGACION */
 
-
+.navbar{
+    position: sticky;
+    top: 0;
+}
 
 
 /* INICIO ESTILO SOMBRA BARRA DE NAVEGACION */
 #sombra__barra__navegacion{
     box-shadow: #0000002c $sombra;
+    
 }
-
-#sombra__barra__navegacion__roja{
-    box-shadow: #6d4050 $sombra;
-}
-
-#sombra__barra__navegacion__colores{
-    box-shadow: #6c5373 $sombra;
-}
-
-#sombra__barra__navegacion__cactus{
-    box-shadow: #1d4841 $sombra;
-}
-
-#sombra__barra__navegacion__perla{
-    box-shadow: #8279b0 $sombra;
-}
-
 /* FIN ESTILO SOMBRA BARRA DE NAVEGACION */
 
 
 
-/* ESTILO TEXTO DE FOOTER */
+
 
 
 #footer__contacto{
@@ -186,44 +111,14 @@
     }
 }
 
-@mixin estilo__footer ($colorfondo__footer, $height__footer, $fontfamily__footer, $fontsize__footer, $boxshadow__footer){
-    background-color: $colorfondo__footer;
-    height: $height__footer;
-    font-family: $fontfamily__footer;
-    font-size: $fontsize__footer;
-    box-shadow: $boxshadow__footer;
-}
 
-#texto__footer__rojo{
-    @include estilo__footer (#6d4050, 12em, "Cantarell", 0.8em, #6d4050 1px -4px 10px);
-}
-
-#texto__footer__colores{
-    @include estilo__footer (#6c5373, 12em, "Cantarell", 0.8em, #6c5373 1px -4px 10px);
-}
-
-#texto__footer__cactus{
-    @include estilo__footer (#1d4841, 12em, "Cantarell", 0.8em, #1d4841 1px -4px 10px);
     
-}
-
-#texto__footer__perla{
-    @include estilo__footer(#8279b0, 12em, "Cantarell", 0.8em ,#8279b0 1px -4px 10px);
-}
-    
-
-/* FIN ESTILO TEXTO DE FOOTER */
-
-
-
 #fondo__presentacion{
     background-color: $colorprincipal;
         
     .titulo__presentacion{
         @extend .titulo__estilos;
-        animation-name: titulopresentacion;
-        animation-timing-function: linear;
-        animation-duration: 2s;
+        
     }
 
 
@@ -272,14 +167,7 @@
 }
 
 
-/* #fondo__trabajos{
-    background-image: $fondoopaco, url(../img/museo-louvre-1072536.jpg); 
-    background-position: center center;
-    background-size: cover;
-    background-repeat:no-repeat;
-} */
 
-/* ESTILO ICONOS CONTACTO */
 
 #instagram__footer{
     text-align: end;
@@ -318,7 +206,7 @@
     transition: 0.5s;
 }
 
-/* FIN ESTILO ICONOS CONTACTO */
+
 
 
 .fondo__estilos{
@@ -420,7 +308,7 @@
     .titulo__chicacolores{
         @extend .titulo__estilos;
         margin-top: 100px;
-        -webkit-text-stroke: 4px #803D68;
+        -webkit-text-stroke: 4px #803d69;
     }
 
     p{
@@ -431,7 +319,7 @@
 }
 
 .section__cactus{
-    background-color: #632C73;
+    background-color: #622c73;
 
     .titulo__cactus{
         @extend .titulo__estilos;
@@ -750,7 +638,7 @@
 @media only screen and (min-width: 768px){
     #foto__presentacion{
         margin: 10%;
-        /* margin-top: 30%; */
+        
     }
 
     #texto__foto__presentacion{
@@ -765,7 +653,7 @@
 @media only screen and (min-width: 992px){
     #foto__presentacion{
         margin: 10%;
-        /* margin-top: 60%; */
+        
     }
 
     #texto__foto__presentacion{
@@ -864,7 +752,7 @@
 @media only screen and (min-width: 1200px){
     #foto__presentacion{
         margin: 10%;
-        /* margin-top: 40%; */
+        
     }
 
     #texto__foto__presentacion{
