@@ -7,17 +7,15 @@ window.sr = ScrollReveal();
     interval: 1000,
     })
 
-    sr.reveal('#titulo__nombre, #estilo__palabra__menu',{
+    sr.reveal('#titulo__nombre, .nombre__footer',{
         duration: 1000,
-        origin: 'top',
-        distance: '100px',
+        origin: 'left',
+        distance: '300px',
         reset: 'true',
+        
     })
     
-    sr.reveal('#titulo__nombre',{
-        origin: 'left',
-        distance: '300px'
-    })
+    
 
     sr.reveal('.titulo__presentacion',{
         duration:1000,
@@ -25,5 +23,6 @@ window.sr = ScrollReveal();
         distance: '300px',
         reset: 'true',
     })
+
     
 

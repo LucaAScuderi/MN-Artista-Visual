@@ -4,8 +4,11 @@ window.sr = ScrollReveal();
         duration: 1000,
         origin: 'bottom',
         distance: '200px',
-        
-        
+        rotate:{
+            x:10,
+            y:100,
+        },
+        delay: 400,
     });
 
 
@@ -21,7 +24,6 @@ window.sr = ScrollReveal();
         origin: 'left',
         distance: '300px',
         reset: 'true',
-        
     })
 
     
