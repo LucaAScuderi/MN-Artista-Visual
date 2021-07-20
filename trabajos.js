@@ -9,6 +9,7 @@ window.sr = ScrollReveal();
             y:100,
         },
         delay: 400,
+        
     });
 
 
@@ -24,6 +25,10 @@ window.sr = ScrollReveal();
         origin: 'left',
         distance: '300px',
         reset: 'true',
+        rotate:{
+            x:1,
+            y:100,
+        },
     })
 
     
