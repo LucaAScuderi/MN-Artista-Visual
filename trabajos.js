@@ -26,7 +26,7 @@ window.sr = ScrollReveal();
         distance: '300px',
         reset: 'true',
         rotate:{
-            x:1,
+            x:10,
             y:100,
         },
     })
