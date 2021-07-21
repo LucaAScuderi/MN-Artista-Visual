@@ -4,7 +4,7 @@
 
 #fondo__pagina{
     background-image: url(../img/headerBG.jpg);
-    height: 40em;
+    height: 90vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center left;
@@ -17,6 +17,15 @@
 #estilo__palabra__menu{
     font-weight: 500;  
     color: $colortextos;
+    font-family: $fuentetextos;
+    font-size: .9em;
+    
+}
+
+#estilo__palabra__menu:hover{
+    color: $colortextos;
+    opacity: 0.7;
+    
 }
 /* FIN ESTILO PALABRA MENU */
 
@@ -73,6 +82,7 @@
     h4{
         font-family: $fuentetextos;
         font-size: 20px;
+        font-weight: 700;
     }
 
     a{
@@ -80,7 +90,7 @@
         color: #155fa0;
         font-family: $fuentetextos;
         font-size: 15px;
-        font-weight: 400;
+        font-weight: 500;
         animation-timing-function: linear;
         animation-duration: 1s;
         
@@ -140,7 +150,9 @@
 
         #parrafo__presentacion{
             font-family: $fuentetextos;
-            line-height: 25px;
+            text-align: justify;
+            line-height: 30px;
+            font-weight: 500;
             font-size: 15px;
             color: rgb(51, 48, 48);
             animation-name: textoaparicion;
@@ -465,9 +477,73 @@
         text-align: justify;
     }
 
-    #footer__contacto span{
+    
+#footer__contacto{
+    background-color: $colorprincipal;
+    box-shadow:  1px -4px 10px #0000002c;
+
+
+    h3{
+        font-family: $fuentetitulos;
+    }
+
+    .texto__contacto{
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    h4{
+        font-family: $fuentetextos;
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    a{
+        text-decoration: none;
+        color: #155fa0;
+        font-family: $fuentetextos;
+        font-size: 13px;
+        font-weight: 500;
+        animation-timing-function: linear;
+        animation-duration: 1s;
+        
+    }
+
+    a:hover{
+        color: #622c73;   
+    }
+
+    .i__wp{
+        color: #00bb2d;
         font-size: 13px;
     }
+
+    
+    .i__ig{
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 13px;
+    }
+    
+    p{
+        font-size: 13px;
+        font-weight: 500;
+        font-family: $fuentetextos;
+        color: $colortextos;
+        
+    }
+
+    
+
+    span{
+        color: rgba(0, 0, 0, 0.548);
+        font-size: 13px;
+    }
+    
+}
+   
     
     
 }

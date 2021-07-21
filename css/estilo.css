@@ -1,6 +1,6 @@
 #fondo__pagina {
   background-image: url(../img/headerBG.jpg);
-  height: 40em;
+  height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center left; }
@@ -8,7 +8,13 @@
 /* ESTILOS PALABRA MENU */
 #estilo__palabra__menu {
   font-weight: 500;
-  color: #3d3232; }
+  color: #3d3232;
+  font-family: "Montserrat", sans-serif;
+  font-size: .9em; }
+
+#estilo__palabra__menu:hover {
+  color: #3d3232;
+  opacity: 0.7; }
 
 /* FIN ESTILO PALABRA MENU */
 /* ESTILO TITULO */
@@ -39,14 +45,15 @@
     font-size: 1em;
     text-align: justify; }
   #footer__contacto h4 {
-    font-family: "PT Sans Caption", sans-serif, "arial", "Times New Roman";
-    font-size: 20px; }
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700; }
   #footer__contacto a {
     text-decoration: none;
     color: #155fa0;
-    font-family: "PT Sans Caption", sans-serif, "arial", "Times New Roman";
+    font-family: "Montserrat", sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
     animation-timing-function: linear;
     animation-duration: 1s; }
   #footer__contacto a:hover {
@@ -61,7 +68,7 @@
   #footer__contacto p {
     font-size: 15px;
     font-weight: 500;
-    font-family: "PT Sans Caption", sans-serif, "arial", "Times New Roman";
+    font-family: "Montserrat", sans-serif;
     color: #3d3232; }
   #footer__contacto span {
     color: rgba(0, 0, 0, 0.548); }
@@ -80,8 +87,10 @@
     animation-timing-function: ease-in-out;
     animation-duration: 1s; }
     #fondo__presentacion #texto__foto__presentacion #parrafo__presentacion {
-      font-family: "PT Sans Caption", sans-serif, "arial", "Times New Roman";
-      line-height: 25px;
+      font-family: "Montserrat", sans-serif;
+      text-align: justify;
+      line-height: 30px;
+      font-weight: 500;
       font-size: 15px;
       color: #333030;
       animation-name: textoaparicion;
@@ -282,8 +291,45 @@
     font-size: 2.5em;
     -webkit-text-stroke: 0.8px #617AD6;
     text-align: justify; }
-  #footer__contacto span {
-    font-size: 13px; } }
+  #footer__contacto {
+    background-color: #d2d4d3a4;
+    box-shadow: 1px -4px 10px #0000002c; }
+    #footer__contacto h3 {
+      font-family: "Bree Serif"; }
+    #footer__contacto .texto__contacto {
+      font-size: 17px;
+      text-align: justify; }
+    #footer__contacto h4 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 17px;
+      font-weight: 700; }
+    #footer__contacto a {
+      text-decoration: none;
+      color: #155fa0;
+      font-family: "Montserrat", sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      animation-timing-function: linear;
+      animation-duration: 1s; }
+    #footer__contacto a:hover {
+      color: #622c73; }
+    #footer__contacto .i__wp {
+      color: #00bb2d;
+      font-size: 13px; }
+    #footer__contacto .i__ig {
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 13px; }
+    #footer__contacto p {
+      font-size: 13px;
+      font-weight: 500;
+      font-family: "Montserrat", sans-serif;
+      color: #3d3232; }
+    #footer__contacto span {
+      color: rgba(0, 0, 0, 0.548);
+      font-size: 13px; } }
 
 @media only screen and (min-width: 576px) {
   #foto__presentacion {
