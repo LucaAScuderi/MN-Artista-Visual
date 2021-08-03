@@ -2,8 +2,8 @@ window.sr = ScrollReveal();
     
     sr.reveal('.card1, .card2, .card3', {
         duration: 1000,
-        origin: 'bottom',
-        distance: '200px',
+        origin: 'left',
+        distance: '500px',
         rotate:{
             x:10,
             y:100,
@@ -12,23 +12,26 @@ window.sr = ScrollReveal();
         
     });
 
+    sr.reveal('.card2', {
+        origin: 'right',
+    });
+
+    sr.reveal('.card3',{
+        origin: 'bottom'
+    })
+
+    sr.reveal('.titulo__trabajos',{
+        opacity: 0,
+        duration: 1000,
+        scale: 0.3,
+    })
+
 
     sr.reveal('.section__chicaroja, .section__chicacolores, .section__cactus, .section__perla',{
         duration:1000,
         origin: 'bottom',
         distance: '500px',
         
-    })
-
-    sr.reveal('.titulo__trabajos, .titulo__chicaroja, .titulo__chicacolores, .titulo__cactus, .titulo__perla',{
-        duration:1000,
-        origin: 'left',
-        distance: '300px',
-        reset: 'true',
-        rotate:{
-            x:10,
-            y:100,
-        },
     })
 
     

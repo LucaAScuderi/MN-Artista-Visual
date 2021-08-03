@@ -32,20 +32,17 @@
     background: #bd849cb2;
     z-index: 1;
     transform: scaleX(0);
-    transform-origin: left;
+    transform-origin: right;
     transition: transform 0.5s ease-in-out;
 }
 
 #estilo__palabra__menu:hover::before{
     transform: scaleX(1);
-    transform-origin: right;
+    transform-origin: left;
     transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94)
     
 }
 
-
-
-    
 /* FIN ESTILO PALABRA MENU */
 
 
@@ -60,16 +57,26 @@
 /* FIN ESTILO TITULO */
 
 
+
+
 /* ESTILO BARRA NAVEGACION */
 
 #barra__navegacion{
     background-color: $colorprincipal;
     padding: 0;
+}
+
+#barra__navegacion__estilos{
+    background: rgba(105, 131, 146, 0.10);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+    padding: 0;
     
 }
 
-
 /* FIN BARRA NAVEGACION */
+
 
 
 
@@ -149,6 +156,14 @@
     
 }
 
+#footer__contacto__estilos{
+    @extend #footer__contacto;
+    background: rgba(105, 131, 146, 0.10);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.0px );
+    -webkit-backdrop-filter: blur( 5.0px );
+}
+
     
 #fondo__presentacion{
     background-color: $colorprincipal;
@@ -210,34 +225,327 @@
 
 
 .fondo__estilos{
-    background-image:linear-gradient(243deg, rgb(230, 227, 227) 31%, rgba(0,0,0,1) 100%);
-    background-size: 300%;
-    animation: fondoestilos 10s linear infinite alternate;
-}
-.titulo__estilos{
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
-    font-family: $fuentetitulos;
-    font-size: 5em;
-    color: transparent;
+    background-image:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+    .fondo__estilos__titulo{
+        height: 100vh;
+    }
+    
+    .square1{
+        height: 100px;
+        width: 100px;
+        position:absolute;
+        top: 50%;
+        left: 61%;
+        transform: rotate(10deg);
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square2{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 90px;
+        width: 90px;
+        top: 60%;
+        left: 32%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square3{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 70px;
+        width: 70px;
+        top: 40%;
+        left: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .square4{
+        height: 70px;
+        width: 70px;
+        top: 53%;
+        left: 29%;
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square5{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;        
+        height: 10vh;
+        width: 70px;
+        top: 40%;
+        left: 43%;
+        transform: rotate(-20deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square6{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 10vh;
+        width: 70px;
+        top: 80%;
+        left: 23%;
+        transform: rotate(-20deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square7{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 10vh;
+        width: 70px;
+        top: 20%;
+        left: 73%;
+        transform: rotate(160deg);
+        z-index: -1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square8{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 10vh;
+        width: 70px;
+        top: 76%;
+        left: 38%;
+        transform: rotate(-60deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square9{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 10vh;
+        width: 70px;
+        top: 101%;
+        left: 20%;
+        transform: rotate(-100deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square10{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 10vh;
+        width: 70px;
+        top: 105%;
+        left: 30%;
+        transform: rotate(-105deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .square11{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 100px;
+        width: 100px;
+        top: 110%;
+        left: 50%;
+        transform: rotate(-200deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square12{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 95px;
+        width: 95px;
+        top: 120%;
+        left: 1%;
+        transform: rotate(230deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square13{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;        
+        height: 10vh;
+        width: 70px;
+        top: 125%;
+        left: 33%;
+        transform: rotate(-145deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square14{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 110px;
+        width: 110px;
+        top: 160%;
+        left: 60%;
+        transform: rotate(-40deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square15{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 10vh;
+        width: 70px;
+        top: 175%;
+        left: 37%;
+        transform: rotate(-100deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .square16{
+        position:absolute;
+        background: rgba(127, 142, 151, 0.3);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 8.5px );
+        -webkit-backdrop-filter: blur( 8.5px );
+        border-radius: 10px;
+        height: 90px;
+        width: 90px;
+        top: 200%;
+        left: 48%;
+        transform: rotate(20deg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .titulo__estilos{
+        -webkit-text-stroke: 2px rgb(0, 0, 0);
+        font-family: $fuentetitulos;
+        font-size: 5em;
+        color: transparent;
+        width: 450px;
+        height: 20%;
+        background: rgba(105, 131, 146, 0);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 6.5px );
+        -webkit-backdrop-filter: blur( 6.5px );
+        border-radius: 10px;
+        
+        
+    }
+ 
+    
+    .subtitulo__estilos{
+        font-family: $fuentetextos;
+        color: rgb(0, 0, 0);
+        z-index: 1;
+        font-size: 1.5em;
+    }
+    
 }
 
-.subtitulo__estilos{
-    font-family: $fuentetitulos;
-    color: white
-}
 
 
 
 
 
 .titulo__trabajos{
-    @extend .titulo__estilos;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    font-family: $fuentetitulos;
+    color: transparent;
     font-size: 6em;
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.651);
     text-shadow: rgba(255, 255, 255, 0.438) 1px 3px 20px;
     animation-name: iluminaciontitulo;
     animation-timing-function: ease-out;
     animation-duration: 3s;
+    
 }
 
 
@@ -281,7 +589,9 @@
     background-color: $colorprincipal;
 
     .titulo__chicaroja{
-        @extend .titulo__estilos;
+        font-family: $fuentetitulos;
+        font-size: 5em;
+        color: transparent;
         margin-top: 100px;
         -webkit-text-stroke: 4px #733646;
     }
@@ -298,7 +608,9 @@
     background-color: #023059;
 
     .titulo__chicacolores{
-        @extend .titulo__estilos;
+        font-family: $fuentetitulos;
+        font-size: 5em;
+        color: transparent;
         margin-top: 100px;
         -webkit-text-stroke: 4px #803d69;
     }
@@ -314,7 +626,9 @@
     background-color: #622c73;
 
     .titulo__cactus{
-        @extend .titulo__estilos;
+        font-family: $fuentetitulos;
+        font-size: 5em;
+        color: transparent;
         margin-top: 100px;
         -webkit-text-stroke: 4px #5B83A6;
     }
@@ -332,7 +646,9 @@
     background-color: #021859;
 
     .titulo__perla{
-        @extend .titulo__estilos;
+        font-family: $fuentetitulos;
+        font-size: 5em;
+        color: transparent;
         margin-top:100px;
         -webkit-text-stroke: 4px #617AD6;
         
@@ -344,6 +660,43 @@
         text-align: justify;
     }
 }
+
+
+
+.bg__picasso1{
+    background: $fondoopaco, url(../img/picasso_d11.jpg);
+    background-position: center right;
+    height: 8vh;
+}
+
+.bg__picasso2{
+    background: $fondoopaco, url(../img/picasso-2.jpg);
+    height: 8vh;
+}
+
+.bg__vvg{
+    background: $fondoopaco, url(../img/noche-estrellada.jpg);
+    background-position: center right;
+    background-size: cover;
+    height: 8vh;
+}
+
+.bg__frida{
+    background: $fondoopaco, url(../img/frida.jpg);
+    background-position: center right;
+    background-size: cover;
+    height: 8vh;
+}
+
+.bg__aw{
+    background: $fondoopaco, url(../img/warhol.jpg);
+    background-position: bottom left;
+    height: 8vh;
+    
+}
+
+
+
 
 
 
@@ -498,10 +851,121 @@
         text-align: justify;
     }
 
+    .fondo__estilos{
+        
+        .square1{
+        left: 85%;
+        top: 62%;
+        height: 50px;
+        width: 50px;
+        }
+        .square2{
+        left: 25%;
+        top: 70%;
+        height: 50px;
+        width: 50px;
+        
+        }
+
+        .square3{
+        left: 5%;
+        top: 30%;
+        height: 60px;
+        width: 60px;
+        transform: rotate(145deg);
+        z-index: -2;
+        }
+
+        .square4{
+        left: 35%;
+        top: 82%;
+        height: 70px;
+        width: 70px;
+        }
+
+        .square5{
+        left: 50%;
+        top: 62%;
+        height: 70px;
+        width: 70px;
+        }
+
+        .square6{
+        left: 75%;
+        top: 80%;
+        height: 50px;
+        width: 50px;
+        }
+
+        .square7{
+            top: 15%;
+        }
+
+        .square8{
+            left: 85%;
+            top: 92%;
+            height: 30px;
+            width: 30px;
+        }
+
+        .square9{
+            left: 6%;
+            height: 80px;
+            width: 80px;
+        }
+
+        .square10{
+            left: 78%;
+            top: 115%;
+        }
+
+        .square11{
+            left: 73%;
+            top: 135%;
+        }
+
+        .square12{
+            left: 10%;
+            top: 155%;
+        }
+
+        .square13{
+            left: 3%;
+            top: 149%;
+            transform: rotate(-50deg);
+        }
+
+        .square14{
+            top: 178%;
+        }
+
+        .square15{
+            top: 210%;
+            left: 4%;
+            width: 120px;
+            height: 120px;
+        }
+
+        .square16{
+            top: 250%;
+            left: 68%;
+        }
+
+        .titulo__estilos{
+            font-size: 4em
+        }
+
+        .subtitulo__estilos{
+            font-size: 1em;
+        }
+    }
+
     
-#footer__contacto{
-    background-color: $colorprincipal;
-    box-shadow:  1px -4px 10px #0000002c;
+    #footer__contacto__estilos{
+        background: rgba(105, 131, 146, 0.10);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 5.0px );
+        -webkit-backdrop-filter: blur( 5.0px );
 
 
     h3{
@@ -563,9 +1027,13 @@
         font-size: 13px;
     }
     
-}
-   
+    }
+
     
+    .bg__picasso1, .bg__picasso2, .bg__vvg, .bg__frida, .bg__aw{
+    height: 20vh;
+    
+    }
     
 }
 
@@ -676,7 +1144,8 @@
         margin-bottom: 3%;
     }
 
-    
+
+   
    
     
 }
