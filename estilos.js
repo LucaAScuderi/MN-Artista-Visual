@@ -3,22 +3,19 @@ window.sr = ScrollReveal();
 sr.reveal('.square1, .square2, .square3, .square4, .square5, .square6, .square7, .square8, .square9, .square10, .square11, .square12, .square13, .square14, .square15, .square16', {
     duration: 2000,
     origin: 'top',
-    distance: '500px',
     easing: 'ease-in-out',
+    scale: 0.1,
 });
 
-sr.reveal('.square2, .square5, .square 8, .square10, .squarte 12, .square 15',{
+sr.reveal('.square2, .square5, .square 8, .square10, .square11, .squarte 12, .square 15, .square 16',{
     origin:'left',
     
 })
 
-sr.reveal('.square1, .square4, .square 9, .square11, .squarte 14, .square 16',{
-    origin:'right',
-})
 
 sr.reveal('.titulo__estilos, .subtitulo__estilos',{
     scale: 0.4,
-    duration: 2000,
+    duration: 2500,
     delay: 500,
 })
 
@@ -39,3 +36,4 @@ sr.reveal('.card3',{
 sr.reveal('.card5',{
     delay: 500,
 })
+

@@ -226,6 +226,7 @@
 
 .fondo__estilos{
     background-image:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+   
     
     .fondo__estilos__titulo{
         height: 100vh;
@@ -246,6 +247,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square2{
@@ -262,6 +264,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square3{
@@ -278,6 +281,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
         
     }
 
@@ -295,6 +299,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square5{
@@ -304,7 +309,7 @@
         backdrop-filter: blur( 8.5px );
         -webkit-backdrop-filter: blur( 8.5px );
         border-radius: 10px;        
-        height: 10vh;
+        height: 70px;
         width: 70px;
         top: 40%;
         left: 43%;
@@ -312,6 +317,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square6{
@@ -321,7 +327,7 @@
         backdrop-filter: blur( 8.5px );
         -webkit-backdrop-filter: blur( 8.5px );
         border-radius: 10px;
-        height: 10vh;
+        height: 70px;
         width: 70px;
         top: 80%;
         left: 23%;
@@ -329,6 +335,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square7{
@@ -338,7 +345,7 @@
         backdrop-filter: blur( 8.5px );
         -webkit-backdrop-filter: blur( 8.5px );
         border-radius: 10px;
-        height: 10vh;
+        height: 70px;
         width: 70px;
         top: 20%;
         left: 73%;
@@ -347,6 +354,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square8{
@@ -356,7 +364,7 @@
         backdrop-filter: blur( 8.5px );
         -webkit-backdrop-filter: blur( 8.5px );
         border-radius: 10px;
-        height: 10vh;
+        height: 70px;
         width: 70px;
         top: 76%;
         left: 38%;
@@ -364,6 +372,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square9{
@@ -373,7 +382,7 @@
         backdrop-filter: blur( 8.5px );
         -webkit-backdrop-filter: blur( 8.5px );
         border-radius: 10px;
-        height: 10vh;
+        height: 70px;
         width: 70px;
         top: 101%;
         left: 20%;
@@ -381,6 +390,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square10{
@@ -390,7 +400,7 @@
         backdrop-filter: blur( 8.5px );
         -webkit-backdrop-filter: blur( 8.5px );
         border-radius: 10px;
-        height: 10vh;
+        height: 70px;
         width: 70px;
         top: 105%;
         left: 30%;
@@ -398,6 +408,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
         
     }
 
@@ -416,6 +427,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square12{
@@ -433,6 +445,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square13{
@@ -442,14 +455,15 @@
         backdrop-filter: blur( 8.5px );
         -webkit-backdrop-filter: blur( 8.5px );
         border-radius: 10px;        
-        height: 10vh;
-        width: 70px;
+        height: 50px;
+        width: 50px;
         top: 125%;
         left: 33%;
         transform: rotate(-145deg);
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square14{
@@ -467,6 +481,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square15{
@@ -484,6 +499,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     .square16{
@@ -501,6 +517,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        z-index: -2;
     }
 
     
@@ -852,7 +869,7 @@
     }
 
     .fondo__estilos{
-        overflow-x: hidden;
+        
         
         .square1{
         left: 85%;
