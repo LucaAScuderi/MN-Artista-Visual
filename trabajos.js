@@ -3,7 +3,7 @@ window.sr = ScrollReveal();
     sr.reveal('.card1, .card2, .card3', {
         duration: 1000,
         origin: 'left',
-        distance: '500px',
+        distance: '200px',
         rotate:{
             x:10,
             y:100,
