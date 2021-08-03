@@ -9,6 +9,7 @@ sr.reveal('.square1, .square2, .square3, .square4, .square5, .square6, .square7,
 
 sr.reveal('.square2, .square5, .square 8, .square10, .squarte 12, .square 15',{
     origin:'left',
+    
 })
 
 sr.reveal('.square1, .square4, .square 9, .square11, .squarte 14, .square 16',{
@@ -23,7 +24,7 @@ sr.reveal('.titulo__estilos, .subtitulo__estilos',{
 
 sr.reveal('.card1, .card2, .card3, .card4, .card5',{
     origin: 'top',
-    distance: '500px',
+    distance: '200px',
     duration: 2000,
 })
 

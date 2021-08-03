@@ -605,76 +605,78 @@
     font-size: 2.5em;
     -webkit-text-stroke: 0.8px #617AD6;
     text-align: justify; }
-  .fondo__estilos .square1 {
-    left: 85%;
-    top: 62%;
-    height: 50px;
-    width: 50px; }
-  .fondo__estilos .square2 {
-    left: 25%;
-    top: 70%;
-    height: 50px;
-    width: 50px; }
-  .fondo__estilos .square3 {
-    left: 5%;
-    top: 30%;
-    height: 60px;
-    width: 60px;
-    transform: rotate(145deg);
-    z-index: -2; }
-  .fondo__estilos .square4 {
-    left: 35%;
-    top: 82%;
-    height: 70px;
-    width: 70px; }
-  .fondo__estilos .square5 {
-    left: 50%;
-    top: 62%;
-    height: 70px;
-    width: 70px; }
-  .fondo__estilos .square6 {
-    left: 75%;
-    top: 80%;
-    height: 50px;
-    width: 50px; }
-  .fondo__estilos .square7 {
-    top: 15%; }
-  .fondo__estilos .square8 {
-    left: 85%;
-    top: 92%;
-    height: 30px;
-    width: 30px; }
-  .fondo__estilos .square9 {
-    left: 6%;
-    height: 80px;
-    width: 80px; }
-  .fondo__estilos .square10 {
-    left: 78%;
-    top: 115%; }
-  .fondo__estilos .square11 {
-    left: 73%;
-    top: 135%; }
-  .fondo__estilos .square12 {
-    left: 10%;
-    top: 155%; }
-  .fondo__estilos .square13 {
-    left: 3%;
-    top: 149%;
-    transform: rotate(-50deg); }
-  .fondo__estilos .square14 {
-    top: 178%; }
-  .fondo__estilos .square15 {
-    top: 210%;
-    left: 4%;
-    width: 120px;
-    height: 120px; }
-  .fondo__estilos .square16 {
-    top: 250%;
-    left: 68%; }
-  .fondo__estilos .titulo__estilos {
-    font-size: 4em; }
-  .fondo__estilos .subtitulo__estilos {
-    font-size: 1em; }
+  .fondo__estilos {
+    overflow-x: hidden; }
+    .fondo__estilos .square1 {
+      left: 85%;
+      top: 62%;
+      height: 50px;
+      width: 50px; }
+    .fondo__estilos .square2 {
+      left: 25%;
+      top: 70%;
+      height: 50px;
+      width: 50px; }
+    .fondo__estilos .square3 {
+      left: 5%;
+      top: 30%;
+      height: 60px;
+      width: 60px;
+      transform: rotate(145deg);
+      z-index: -2; }
+    .fondo__estilos .square4 {
+      left: 35%;
+      top: 82%;
+      height: 70px;
+      width: 70px; }
+    .fondo__estilos .square5 {
+      left: 50%;
+      top: 62%;
+      height: 70px;
+      width: 70px; }
+    .fondo__estilos .square6 {
+      left: 75%;
+      top: 80%;
+      height: 50px;
+      width: 50px; }
+    .fondo__estilos .square7 {
+      top: 15%; }
+    .fondo__estilos .square8 {
+      left: 85%;
+      top: 92%;
+      height: 30px;
+      width: 30px; }
+    .fondo__estilos .square9 {
+      left: 6%;
+      height: 80px;
+      width: 80px; }
+    .fondo__estilos .square10 {
+      left: 78%;
+      top: 115%; }
+    .fondo__estilos .square11 {
+      left: 73%;
+      top: 135%; }
+    .fondo__estilos .square12 {
+      left: 10%;
+      top: 155%; }
+    .fondo__estilos .square13 {
+      left: 3%;
+      top: 149%;
+      transform: rotate(-50deg); }
+    .fondo__estilos .square14 {
+      top: 178%; }
+    .fondo__estilos .square15 {
+      top: 210%;
+      left: 4%;
+      width: 120px;
+      height: 120px; }
+    .fondo__estilos .square16 {
+      top: 250%;
+      left: 68%; }
+    .fondo__estilos .titulo__estilos {
+      font-size: 4em; }
+    .fondo__estilos .subtitulo__estilos {
+      font-size: 1em; }
   #footer__contacto__estilos {
     background: rgba(105, 131, 146, 0.1);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
