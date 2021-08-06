@@ -177,14 +177,14 @@
 /* -------- PRESENTACION -------- */
 
 #fondo__presentacion{
-    background-color: $colorprincipal;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
         
     .titulo__presentacion{
         
         -webkit-text-stroke: 2px rgb(0, 0, 0);
         font-family: $fuentetitulos;
         font-size: 5em;
-        color: transparent;
+        color:transparent;
     }
 
 
@@ -762,6 +762,11 @@
 
 
 
+
+
+
+/* --------------- ERROR ------------- */
+
 .fondo__error{
     background-color: #56c2b4b7;
     height: 90vh;
@@ -826,6 +831,7 @@
     #fondo__pagina{
         background-image: url(../img/headerBG600pxMAX.jpg);
         height: 40em;
+        
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top left;

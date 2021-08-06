@@ -105,7 +105,7 @@
 /* ---------- FIN FOOTER ---------- */
 /* -------- PRESENTACION -------- */
 #fondo__presentacion {
-  background-color: #d2d4d3a4; }
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%); }
   #fondo__presentacion .titulo__presentacion {
     -webkit-text-stroke: 2px black;
     font-family: "Bree Serif";
@@ -534,6 +534,7 @@
   background-position: bottom left;
   height: 8vh; }
 
+/* --------------- ERROR ------------- */
 .fondo__error {
   background-color: #56c2b4b7;
   height: 90vh;

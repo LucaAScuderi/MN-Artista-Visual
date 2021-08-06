@@ -6,7 +6,7 @@ window.sr = ScrollReveal();
     scale: .3,
     })
 
-    sr.reveal('#titulo__nombre, .nombre__footer',{
+    sr.reveal('#titulo__nombre',{
         duration: 1000,
         origin: 'left',
         distance: '300px',
