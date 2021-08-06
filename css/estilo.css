@@ -58,6 +58,7 @@
   box-shadow: #0000002c 1px 4px 10px; }
 
 /* FIN ESTILO SOMBRA BARRA DE NAVEGACION */
+/* ---------- FOOTER ---------*/
 #footer__contacto, #footer__contacto__estilos {
   background-color: #d2d4d3a4;
   box-shadow: 1px -4px 10px #0000002c; }
@@ -101,6 +102,8 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px); }
 
+/* ---------- FIN FOOTER ---------- */
+/* -------- PRESENTACION -------- */
 #fondo__presentacion {
   background-color: #d2d4d3a4; }
   #fondo__presentacion .titulo__presentacion {
@@ -119,7 +122,7 @@
       text-align: justify;
       line-height: 30px;
       font-weight: 500;
-      font-size: 15px;
+      font-size: 12px;
       color: #333030;
       animation-name: textoaparicion;
       animation-timing-function: linear;
@@ -139,6 +142,90 @@
     margin-left: initial;
     background-color: rgba(0, 0, 0, 0.068); } }
 
+/* ------- TRABAJOS ------- */
+.titulo__trabajos {
+  -webkit-text-stroke: 2px black;
+  font-family: "Bree Serif";
+  color: transparent;
+  font-size: 6em;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.651);
+  text-shadow: rgba(255, 255, 255, 0.438) 1px 3px 20px;
+  animation-name: iluminaciontitulo;
+  animation-timing-function: ease-out;
+  animation-duration: 3s; }
+
+@keyframes iluminaciontitulo {
+  0% {
+    text-shadow: none; }
+  10% {
+    text-shadow: 255, 255, 255, 0.438 1px 2px 15px; }
+  60% {
+    text-shadow: none; }
+  70% {
+    text-shadow: rgba(255, 255, 255, 0.438) 1px 2px 15px; }
+  80% {
+    text-shadow: none; }
+  90% {
+    text-shadow: none; }
+  100% {
+    text-shadow: rgba(255, 255, 255, 0.438) 1px 2px 15px; } }
+
+.section__titulo__trabajos {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/pared-purpura-papel-pintado-1680x1050_5.jpg); }
+
+.section__chicaroja {
+  background-color: #d2d4d3a4; }
+  .section__chicaroja .titulo__chicaroja {
+    font-family: "Bree Serif";
+    font-size: 5em;
+    color: transparent;
+    margin-top: 100px;
+    -webkit-text-stroke: 4px #733646; }
+  .section__chicaroja p {
+    font-family: "Cantarell";
+    text-align: justify; }
+
+.section__chicacolores {
+  background-color: #023059; }
+  .section__chicacolores .titulo__chicacolores {
+    font-family: "Bree Serif";
+    font-size: 5em;
+    color: transparent;
+    margin-top: 100px;
+    -webkit-text-stroke: 4px #803d69; }
+  .section__chicacolores p {
+    color: #803D68;
+    font-family: "Cantarell";
+    text-align: justify; }
+
+.section__cactus {
+  background-color: #622c73; }
+  .section__cactus .titulo__cactus {
+    font-family: "Bree Serif";
+    font-size: 5em;
+    color: transparent;
+    margin-top: 100px;
+    -webkit-text-stroke: 4px #5B83A6; }
+  .section__cactus p {
+    color: #5B83A6;
+    font-family: "Cantarell";
+    text-align: justify; }
+
+.section__perla {
+  background-color: #021859; }
+  .section__perla .titulo__perla {
+    font-family: "Bree Serif";
+    font-size: 5em;
+    color: transparent;
+    margin-top: 100px;
+    -webkit-text-stroke: 4px #617AD6; }
+  .section__perla p {
+    color: #617AD6;
+    font-family: "Cantarell";
+    text-align: justify; }
+
+/* -------- ESTILOS -------- */
 .fondo__estilos {
   background-image: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%); }
   .fondo__estilos .fondo__estilos__titulo {
@@ -415,88 +502,7 @@
     z-index: 1;
     font-size: 1.5em; }
 
-.titulo__trabajos {
-  -webkit-text-stroke: 2px black;
-  font-family: "Bree Serif";
-  color: transparent;
-  font-size: 6em;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.651);
-  text-shadow: rgba(255, 255, 255, 0.438) 1px 3px 20px;
-  animation-name: iluminaciontitulo;
-  animation-timing-function: ease-out;
-  animation-duration: 3s; }
-
-@keyframes iluminaciontitulo {
-  0% {
-    text-shadow: none; }
-  10% {
-    text-shadow: 255, 255, 255, 0.438 1px 2px 15px; }
-  60% {
-    text-shadow: none; }
-  70% {
-    text-shadow: rgba(255, 255, 255, 0.438) 1px 2px 15px; }
-  80% {
-    text-shadow: none; }
-  90% {
-    text-shadow: none; }
-  100% {
-    text-shadow: rgba(255, 255, 255, 0.438) 1px 2px 15px; } }
-
-.section__titulo__trabajos {
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/pared-purpura-papel-pintado-1680x1050_5.jpg); }
-
-.section__chicaroja {
-  background-color: #d2d4d3a4; }
-  .section__chicaroja .titulo__chicaroja {
-    font-family: "Bree Serif";
-    font-size: 5em;
-    color: transparent;
-    margin-top: 100px;
-    -webkit-text-stroke: 4px #733646; }
-  .section__chicaroja p {
-    font-family: "Cantarell";
-    text-align: justify; }
-
-.section__chicacolores {
-  background-color: #023059; }
-  .section__chicacolores .titulo__chicacolores {
-    font-family: "Bree Serif";
-    font-size: 5em;
-    color: transparent;
-    margin-top: 100px;
-    -webkit-text-stroke: 4px #803d69; }
-  .section__chicacolores p {
-    color: #803D68;
-    font-family: "Cantarell";
-    text-align: justify; }
-
-.section__cactus {
-  background-color: #622c73; }
-  .section__cactus .titulo__cactus {
-    font-family: "Bree Serif";
-    font-size: 5em;
-    color: transparent;
-    margin-top: 100px;
-    -webkit-text-stroke: 4px #5B83A6; }
-  .section__cactus p {
-    color: #5B83A6;
-    font-family: "Cantarell";
-    text-align: justify; }
-
-.section__perla {
-  background-color: #021859; }
-  .section__perla .titulo__perla {
-    font-family: "Bree Serif";
-    font-size: 5em;
-    color: transparent;
-    margin-top: 100px;
-    -webkit-text-stroke: 4px #617AD6; }
-  .section__perla p {
-    color: #617AD6;
-    font-family: "Cantarell";
-    text-align: justify; }
-
+/* -------- QUOTES -------- */
 .bg__picasso1 {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/picasso_d11.jpg);
   background-position: center right;
@@ -522,6 +528,38 @@
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/warhol.jpg);
   background-position: bottom left;
   height: 8vh; }
+
+.fondo__error {
+  background-color: #56c2b4b7;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+  .fondo__error .container__error {
+    height: 50vh; }
+    .fondo__error .container__error .error__404 {
+      font-family: "Montserrat", sans-serif;
+      color: black;
+      font-size: 1.5em; }
+    .fondo__error .container__error .error__parrafo {
+      font-size: 0.8em;
+      font-family: "Montserrat", sans-serif;
+      margin-top: 30px;
+      font-weight: 600; }
+    .fondo__error .container__error .boton__error__regreso {
+      font-family: "Montserrat", sans-serif;
+      margin-top: 50px; }
+      .fondo__error .container__error .boton__error__regreso a {
+        color: white;
+        font-size: 0.8em;
+        background-color: #a33100;
+        border-radius: 5px;
+        padding: 9px;
+        text-decoration: none; }
+      .fondo__error .container__error .boton__error__regreso a:hover {
+        background-color: #752401; }
 
 /* ------------------MEDIA QUERIES---------------------- */
 @media only screen and (max-width: 576px) {
@@ -668,7 +706,7 @@
     left: 78%;
     top: 115%; }
   .fondo__estilos .square11 {
-    left: 73%;
+    left: 70%;
     top: 135%; }
   .fondo__estilos .square12 {
     left: 10%;
@@ -801,7 +839,15 @@
     50% {
       opacity: .4; }
     100% {
-      bottom: 100vh; } } }
+      bottom: 100vh; } }
+  .fondo__error .container__error .imagen__mantenimiento {
+    width: 50%; }
+  .fondo__error .container__error .error__404 {
+    font-size: 1.8em; }
+  .fondo__error .container__error .error__parrafo {
+    font-size: 1em; }
+  #contenedor__trabajos p {
+    font-size: 1.8em; } }
 
 @media only screen and (min-width: 768px) {
   #foto__presentacion {
@@ -814,10 +860,12 @@
 @media only screen and (min-width: 992px) {
   #foto__presentacion {
     margin: 10%; }
-  #texto__foto__presentacion {
+  #fondo__presentacion #texto__foto__presentacion {
     margin-top: 2.3%;
     text-align: justify;
     margin-bottom: 2.1%; }
+    #fondo__presentacion #texto__foto__presentacion #parrafo__presentacion {
+      font-size: 14px; }
   #texto__footer__large {
     font-size: 1.3em; }
   .burbuja1 {
