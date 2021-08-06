@@ -501,6 +501,11 @@
     color: black;
     z-index: 1;
     font-size: 1.5em; }
+  .fondo__estilos .contenedor__texto__card {
+    background: rgba(255, 255, 255, 0.096);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px); }
 
 /* -------- QUOTES -------- */
 .bg__picasso1 {
@@ -660,7 +665,7 @@
     -webkit-text-stroke: 0.8px #617AD6;
     text-align: justify; }
   .fondo__estilos .square1 {
-    left: 85%;
+    left: 82%;
     top: 62%;
     height: 50px;
     width: 50px; }
@@ -706,8 +711,8 @@
     left: 78%;
     top: 115%; }
   .fondo__estilos .square11 {
-    left: 70%;
-    top: 135%; }
+    left: 65%;
+    top: 155%; }
   .fondo__estilos .square12 {
     left: 10%;
     top: 155%; }
